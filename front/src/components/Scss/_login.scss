@@ -1,0 +1,100 @@
+.center-connexion strong {
+    border-bottom: solid 3px $color_white;
+}
+.block-login{
+    margin-top: 80px;
+}
+.button-login {
+    margin-top: 15px;
+    font-family: $font-family3;
+    font-size: 35px;
+    text-transform: none !important;
+    padding: 1px 20px 1px 20px !important;
+    &:hover {
+        background-color: $color_white;
+        color: $color-2;
+        border-color: $color-2;
+    }
+}
+
+.size-input {
+    width: 35vh;
+}
+.center-connexion {
+    font-family: $font-family3;
+    color: $color_white;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    text-align: center;
+    max-width: 265px;
+    width: 100%;
+}
+.label-login {
+    display: flex;
+    margin-top: 15px;
+    color: $color_white;
+}
+
+// .scrol {
+//         margin-top: -3px !important;
+//     }
+
+@media screen and (max-width: 575.98px) {
+    .block-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 86.5vh;
+    }
+    
+    .block-form-login {
+        background-color: $color-3;
+        border: solid 3px $color_white;
+        border-radius: $radius;
+        padding: 15px 15px 15px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+}
+
+@media screen and (min-width: 576px) and (max-width: 991.98px) {
+    .block-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 71.5vh;
+    }
+
+    .block-form-login {
+        background-color: $color-3;
+        border: solid 3px $color_white;
+        border-radius: $radius;
+        padding: 15px 15px 15px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .block-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 69.7vh;
+    }
+
+    .block-form-login {
+        background-color: $color-3;
+        border: solid 3px $color_white;
+        border-radius: $radius;
+        padding: 15px 15px 15px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

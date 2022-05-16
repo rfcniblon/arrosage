@@ -1,0 +1,48 @@
+
+// 5 Couleurs 
+$color-1: rgb(253, 245, 245);
+$color-2: #070707;
+$color-3: rgb(54, 163, 50);
+$color-5: rgb(7, 29, 126);
+// $color-4:rgb(212, 12, 12);
+$color-4:$color-5;
+// $color_black: rgb(99, 107, 218);
+$color_white: $color-1;
+// couleurs ddes borders
+$color_border: $color_white;
+$transparent: 0.651;
+// Radius
+$radius: 15px; 
+
+
+//decoration border
+.border_deco{ 
+    border: 2px solid $color_white;
+    padding: 15px 15px 15px 15px;
+}
+
+body {
+    background-color: $color-3 !important;
+  }
+ 
+  //police ecriture 
+$font-family1: 'Merriweather' , cursive;
+$font-family2: 'Indie Flower', cursive;
+$font-family3: 'Tangerine', cursive;
+
+
+.textdeco{
+  text-decoration: underline $color-4 3px !important;  
+  color: $color-1;
+}
+
+//le captcha de contact est display hidden dans contact.scss !!!!!!!
+// le passer en captcha auto
+
+.mt20{
+  margin-top: 20px !important;
+}
+
+.mt90{
+  margin-top: 90px !important;
+}

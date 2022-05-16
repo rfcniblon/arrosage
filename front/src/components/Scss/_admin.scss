@@ -1,0 +1,55 @@
+//background color navbar
+.MuiToolbar-regular {
+    background-color: $color-2;
+    border-bottom: 3px solid $color_white;
+}
+//background color sidebar
+.MuiDrawer-paper {
+    background-color: $color-2 !important;
+    border-right: 3px solid $color_white !important;
+}
+//color icon
+.MuiSvgIcon-root {
+    color: $color_white;
+}
+.MuiTypography-root {
+    color: $color_white;
+}
+.MuiTypography-h5 {
+    color: $color-2;
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    font-family: Helvetica !important;
+}
+
+.MuiTypography-h6 {
+    color: $color_white;
+    font-size: 30px !important;
+    font-family: $font-family1 !important;
+}
+
+.iconeadd {
+    color: $color_white !important;
+    background-color: $color-2 !important;
+}
+.MuiTableHead-root {
+    background-color: $color-2 !important;
+    border: 3px solid $color-3;
+}
+
+.MuiTableCell-head {
+    color: $color_white !important;
+    text-decoration: underline;
+}
+.MuiTableCell-root {
+    border: 3px solid $color-2 !important;
+    text-align: center !important;
+    
+}
+
+.MuiTableBody-root,.MuiTableRow-root  {
+    border: 3px solid $color-2 !important;
+}
+.MuiButtonBase-root:hover{
+    background-color: $color-3 !important;
+}
