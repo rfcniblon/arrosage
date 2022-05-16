@@ -1,0 +1,16 @@
+@import 'variable.scss';
+@import 'navbar.scss';
+@import 'footer.scss';
+@import 'login.scss';
+@import 'accueil.scss';
+@import 'admin.scss';
+
+.mt70{
+    margin-top: 90px !important
+}
+
+.MuiLinearProgress-colorWarning,.MuiLinearProgress-colorSuccess,.MuiLinearProgress-colorError {
+  width: 150px !important;
+}
+
+
