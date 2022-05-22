@@ -14,7 +14,7 @@ site pour un arrosage automatisé
 ![capteur sol](https://github.com/rfcniblon/arrosage/blob/main/img/sol.png?raw=true)
 
 ## capteur DHT 22
-![sonde température](https://github.com/rfcniblon/arrosage/blob/main/img/temperature.png?raw=true)
+![sonde température](https://github.com/rfcniblon/arrosage/blob/main/img/dht22.png?raw=true)
 
 ## pompe a eau
 ![pompe a eau](https://github.com/rfcniblon/arrosage/blob/main/img/pompe.png?raw=true)
