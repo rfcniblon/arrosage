@@ -25,3 +25,10 @@ site pour un arrosage automatisé
 ### D1 vers vcc du capteur sol
 
 # Flasher Wemos
+voir video ! 
+
+# Réglage espeasy
+voir video !
+
+# Impression du boitier
+fichier stl disponible dans le répertoire stl
