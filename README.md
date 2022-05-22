@@ -6,7 +6,7 @@ site pour un arrosage automatisé
 
 ## wemos D1 mini
 
-![wemos](https://github.com/rfcniblon/arrosage/tree/main/img/wemos.png?raw=true)
+![wemos](https://github.com/rfcniblon/arrosage/blob/main/img/wemos.png?raw=true)
 
 ## relais pour Wemos
 ## capteur de sol
